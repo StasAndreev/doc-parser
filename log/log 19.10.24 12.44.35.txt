@@ -1,0 +1,66 @@
+INFO: Checksum match. Starting reading from page 1
+DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/processor_config.json HTTP/11" 404 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/chat_template.json HTTP/11" 404 0
+INFO: Model loading time: 39.64 sec
+DEBUG: Processing page 1
+DEBUG: STREAM b'IHDR' 16 13
+DEBUG: STREAM b'IDAT' 41 8192
+DEBUG: STREAM b'tEXt' 335072 44
+DEBUG: Text detection done
+DEBUG: Layout detection done
+DEBUG: Ordering done
+DEBUG: Merging and sorting done
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_rk9i0clv_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_rk9i0clv', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_qsitfd00_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_qsitfd00', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_ykhszfw9_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_ykhszfw9', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_ec4n4eih_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_ec4n4eih', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_54nszsx4_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_54nszsx4', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_y3zf2ft6_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_y3zf2ft6', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_4xhjsjzc_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_4xhjsjzc', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_kbm6jd8y_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_kbm6jd8y', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: OCR done
+DEBUG: Page 1 processed
+DEBUG: Page 1 post-processed
+DEBUG: Page 1 text saved
+DEBUG: Page 1 images saved
+INFO: Page 0 processed
+DEBUG: Processing page 2
+DEBUG: STREAM b'IHDR' 16 13
+DEBUG: STREAM b'IDAT' 41 8192
+DEBUG: STREAM b'tEXt' 496405 44
+DEBUG: Text detection done
+DEBUG: Layout detection done
+DEBUG: Ordering done
+DEBUG: Merging and sorting done
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_jrnhlu2w_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_jrnhlu2w', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_5u241uq6_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_5u241uq6', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_48ba1si1_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_48ba1si1', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_0jv9y74r_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_0jv9y74r', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_gcb7vahr_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_gcb7vahr', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_5tv84w3g_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_5tv84w3g', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_yd5idqdu_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_yd5idqdu', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_x53i4ye3_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_x53i4ye3', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_rdo97qd0_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_rdo97qd0', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_68xpthpg_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_68xpthpg', '-l', 'eng+deu', '--psm', '6', 'txt']
+DEBUG: OCR done
+DEBUG: Page 2 processed
+DEBUG: Page 2 post-processed
+DEBUG: Page 2 text saved
+DEBUG: Page 2 images saved
+INFO: Page 1 processed
+INFO: All pages have been successfully processed

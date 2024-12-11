@@ -1,0 +1,8 @@
+InputFolder: settings/input-file.txt
+IsFormulasParsedFile: settings/is-formulas-parsed.txt
+LangFile: settings/lang.txt
+
+ImageOutputFolder: Output
+TextOutputFolder: Output
+
+StatusFile: status.txt

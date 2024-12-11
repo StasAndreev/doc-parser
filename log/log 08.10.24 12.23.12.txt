@@ -1,0 +1,5 @@
+INFO: Starting reading from page 0
+INFO: Model loading time: 46.53 sec
+INFO: Page 0 processed
+INFO: Page 1 processed
+INFO: All pages have been successfully processed

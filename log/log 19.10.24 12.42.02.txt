@@ -1,0 +1,3 @@
+ERROR: Program is not ready to run (status is not 0)
+CRITICAL: Program execution interrupted
+ERROR: Exception: 

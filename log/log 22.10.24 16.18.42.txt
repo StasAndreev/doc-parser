@@ -1,0 +1,31 @@
+INFO: Starting reading from page 0
+DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/processor_config.json HTTP/11" 404 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/chat_template.json HTTP/11" 404 0
+INFO: Model loading time: 48.65 sec
+DEBUG: Processing page 1
+DEBUG: STREAM b'IHDR' 16 13
+DEBUG: STREAM b'zTXt' 41 3660
+DEBUG: STREAM b'PLTE' 3713 99
+DEBUG: STREAM b'IDAT' 3824 8192
+DEBUG: Text detection done
+DEBUG: Layout detection done
+DEBUG: Ordering done
+DEBUG: Merging and sorting done
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_8ho45mr8_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_8ho45mr8', '-l', 'rus', '--psm', '6', 'txt']
+CRITICAL: Program execution interrupted
+ERROR: Exception: (1, 'Error opening data file C:\\Program Files\\Tesseract-OCR/tessdata/rus.traineddata Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory. Failed loading language \'rus\' Tesseract couldn\'t load any languages! Could not initialize tesseract.')

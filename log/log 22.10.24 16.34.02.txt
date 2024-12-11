@@ -1,0 +1,13 @@
+INFO: Starting reading from page 0
+DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/config.json HTTP/11" 200 0

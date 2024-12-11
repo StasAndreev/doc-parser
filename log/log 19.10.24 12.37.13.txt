@@ -1,0 +1,30 @@
+INFO: Checksum match. Starting reading from page 1
+DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_layout3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_det3/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_rec2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/surya_order/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/generation_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/preprocessor_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/tokenizer_config.json HTTP/11" 200 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/processor_config.json HTTP/11" 404 0
+DEBUG: https://huggingface.co:443 "HEAD /vikp/texify/resolve/main/chat_template.json HTTP/11" 404 0
+INFO: Model loading time: 41.86 sec
+DEBUG: Processing page 1
+DEBUG: STREAM b'IHDR' 16 13
+DEBUG: STREAM b'IDAT' 41 8192
+DEBUG: STREAM b'tEXt' 335072 44
+DEBUG: Text detection done
+DEBUG: Layout detection done
+DEBUG: Ordering done
+DEBUG: Merging and sorting done
+DEBUG: ['tesseract', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_qwn0wl7a_input.PNG', 'C:\\Users\\stas_\\AppData\\Local\\Temp\\tess_qwn0wl7a', '-l', 'eng+deu', '--psm', '6', 'txt']
+CRITICAL: Program execution interrupted
+ERROR: Exception: tesseract is not installed or it's not in your PATH. See README file for more information.
